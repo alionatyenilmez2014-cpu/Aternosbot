@@ -14,8 +14,8 @@ var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
 var host = data["ip"];
 var username = data["name"]
 var bot = mineflayer.createBot({
-  host: host,
-  username: username
+  host: "shokhcraftmc.aternos.me",
+  username: "AFK_Bot"
 });
 function getRandomArbitrary(min, max) {
        return Math.random() * (max - min) + min;
